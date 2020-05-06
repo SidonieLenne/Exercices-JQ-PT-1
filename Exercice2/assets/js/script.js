@@ -1,16 +1,13 @@
-/*Version fonction CSS:
 $(document).ready(function(){
-    (function($) {
-        $.fn.visible = function() {
-            return this.each(function() {
-                $(this).css("visibility", "visible");
-            });
-        };
-    }(jQuery));
-    $('#text').visible() ;
-})*/
-
-//Version "show"
-$(document).ready(function(){
-    $('#text').show() ;
+    $('#text').show();  //Version show
+    //$('#text').css('display', 'block');  Version CSS
+    //$('text').toggle(); //Version toggle
 });
+
+/*Plusieurs propriétés CSS:
+$(document).ready(function(){
+    $('#text').css({
+        'display':'block',
+        'color':'red'
+    });
+}); */
