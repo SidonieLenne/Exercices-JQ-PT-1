@@ -1,8 +1,8 @@
 $(document).ready(function(){
     $('#link').mouseover(function() {
-        $('#link').css({ width: '800px'});
+        $('#link').width('80%'); //Ne pas mettre de quotes ni de valeur pour les pixels 
     });
     $('#link').mouseout(function() {
-        $('#link').css({ width: '676px'});
+        $('#link').css('width','676px');
     });
 });
